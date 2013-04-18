@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/pref_cat_general">
+        <EditTextPreference android:inputType="number" android:key="@string/pref_valor_maximo" android:title="Establecer máximo" android:negativeButtonText="Cancelar" android:dialogMessage="Introduzca el valor máximo de la incógnita por defecto:" android:dialogTitle="Màximo" android:positiveButtonText="Guardar" android:summary="Establece el valor máximo para la incógnita"/>
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>

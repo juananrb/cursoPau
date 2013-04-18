@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/am_mn_reset" android:title="@string/am_mn_reset"></item>
+    <item android:id="@+id/am_mn_editmax" android:title="@string/am_mn_editmax"></item>
+    
+
+</menu>

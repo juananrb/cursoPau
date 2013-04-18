@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Adivinator</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="am_intronumero">Introduzca un número:</string>
+    <string name="am_prueba">¡Prueba!</string>
+    <string name="am_val_invalido">Valor no válido</string>
+    <string name="am_val_acertado">Has acertado el número</string>
+    <string name="am_intentos">Llevas %d intentos</string>
+    <string name="am_menor">El número buscado es menor que %d</string>
+    <string name="am_mayor">El número buscado es mayor que %d</string>
+    <string name="ae_adivinator">Adivinator</string>
+    <string name="am_mn_reset">Reset</string>
+    <string name="am_mn_editmax">Máximo</string>
+    <string name="pref_cat_general">General</string>
+    <string name="pref_valor_maximo">prfvalmax</string>
+    <string name="ae_settings">Configuración</string>
+    
+    
+</resources>

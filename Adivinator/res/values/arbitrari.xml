@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="am_intentos">
+        <item quantity="zero">No has hecho ningún intento</item>
+        <item quantity="one">Llevas 1 intento</item>
+        <item quantity="other">Llevas %d intentos</item>
+    </plurals>
+</resources>
