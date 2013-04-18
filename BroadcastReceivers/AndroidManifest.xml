@@ -1,0 +1,26 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.br"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="10" />
+
+    <application>
+        <receiver android:name="com.ejemplo.br.TelefonoBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.ejemplo.br.VibrateBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="com.example.VIBRATE" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
