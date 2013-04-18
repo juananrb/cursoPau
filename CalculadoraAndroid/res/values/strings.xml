@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CalculadoraAndroid</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="calculadora_act_c1">Cantidad 1:</string>
+    <string name="calculadora_act_c2">Cantidad 2:</string>
+    <string name="calculadora_act_op">Operación</string>
+    <string name="calculadora_act_total">Total:</string>
+    <string name="calculadora_act_calcular">Calcular</string>
+
+</resources>
