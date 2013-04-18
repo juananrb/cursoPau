@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+ <group android:id="@+id/menuGroup_Main">
+    <item android:id="@+id/stringbuffer"
+          android:title="@string/stringbuffer"/>
+    
+    <item android:id="@+id/comprobar_layout"
+          android:title="@string/comprobar_layout"/>
+    
+    <item android:id="@+id/comprobar_xml"
+          android:title="@string/comprobar_xml"/>
+    
+    <item android:id="@+id/comprobar_colores"
+          android:title="@string/comprobar_colores"/>
+    
+    <item android:id="@+id/comprobar_propiedades"
+          android:title="@string/comprobar_propiedades"/>
+    
+    <item android:id="@+id/comprobar_drawable"
+          android:title="@string/comprobar_drawable"/>
+
+    <item android:id="@+id/comprobar_strings"
+          android:title="@string/comprobar_strings"/>
+
+    <item android:id="@+id/comprobar_raw"
+          android:title="@string/comprobar_raw"/>  
+          
+    <item android:id="@+id/comprobar_plural"
+          android:title="@string/comprobar_plural"/>
+    
+    <item android:id="@+id/comprobar_asset"
+          android:title="@string/comprobar_asset"/>    
+
+   <item android:id="@+id/comprobar_arrays"
+          android:title="@string/comprobar_arrays"/>
+</group>
+</menu>

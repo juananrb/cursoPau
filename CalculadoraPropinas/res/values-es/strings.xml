@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Calculadora de Propina</string>
+    <string name="bill_amount_hint">La Cuenta</string>
+    <string name="tip_percent_hint">Porcentaje de Propina</string>
+    <string name="ten">10%</string>
+    <string name="fifteen">15%</string>
+    <string name="eighteen">18%</string>
+    <string name="twenty">20%</string>
+    <string name="tip_amount_label">Propina:</string>
+    <string name="tip_amount_label2">Propina: €%1$.2f</string>
+    <string name="total_bill_label"> Pago Total:</string>
+    <string name="total_bill_label2">Pago Total: €%1$.2f</string>
+</resources>

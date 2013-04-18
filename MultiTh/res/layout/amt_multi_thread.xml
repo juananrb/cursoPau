@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AMT_MultiThread" >
+
+    <TextView
+        android:id="@+id/amt_tv_msg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Msg1"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/amt_tv_msg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Msg2"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/amt_bt_rapido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rápido" />
+
+        <Button
+            android:id="@+id/amt_bt_lento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lento" />
+
+        <Button
+            android:id="@+id/amt_bt_lentoasync"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lento AsyncTask" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/amt_bt_startservice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start service" />
+
+        <Button
+            android:id="@+id/amt_bt_stopservice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop service" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/amt_bt_conecta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Conecta" />
+
+        <Button
+            android:id="@+id/amt_bt_refresca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Refresca" />
+
+        <Button
+            android:id="@+id/amt_bt_desconecta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Desconecta" />
+
+    </LinearLayout>
+
+</LinearLayout>

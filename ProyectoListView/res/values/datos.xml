@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="adobe_products">
+        <item>PhotoShop</item>
+        <item>Connect</item>
+        <item>Premiere</item>
+        <item>After Effects</item>
+        <item>Pagemaker</item>
+        <item>Illustrator</item>
+        <item>Acrobat Reader</item>
+    </string-array>
+</resources>

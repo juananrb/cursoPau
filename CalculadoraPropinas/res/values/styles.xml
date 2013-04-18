@@ -1,0 +1,11 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="AppTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:background">@color/background_color</item>
+    </style>
+
+    <style name="TextViewStyle">
+        <item name="android:textColor">@color/foreground_color</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

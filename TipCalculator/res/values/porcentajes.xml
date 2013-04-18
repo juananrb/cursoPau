@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="atp_array_strings_porcentajes">
+        <item >Impuesto raro: 10%</item>
+        <item >15%</item>
+        <item >18%</item>
+        <item >IVA: (21%)</item>
+    </string-array>
+    
+    <integer-array name="atp_array_enteros_porcentajes">
+        <item >10</item>
+        <item >15</item>
+        <item >18</item>
+        <item >21</item>
+    </integer-array>
+    
+</resources>

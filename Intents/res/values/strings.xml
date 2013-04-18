@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Intents</string>
+
+    <string name="explicit_intents">Intent explicit</string>
+    <string name="pass_data">Pasar datos a un Intent</string>
+    <string name="implicit_intents">Intent implicito</string>
+    <string name="category_implicit_intents">Intent implicito x categoria</string>
+    <string name="data_implicit_intents">Intent de Data/Type implicito</string>
+
+    <string name="explicit_intent1">Activity interno</string>
+    <string name="explicit_intent2">Activity externo</string>
+    <string name="explicit_intent3">Pasando datos extras</string>
+    <string name="explicit_intent4">Devolviendo datos</string>
+    
+    <string name="implicit_intent1">Marcador tel.</string>
+    <string name="implicit_intent2">Ver contactos</string>
+    <string name="implicit_intent3">Ver No. categoria</string>
+    <string name="implicit_intent4">Ver categoria</string>
+    <string name="implicit_intent5">Tipo no. Datos</string>
+    <string name="implicit_intent6">Datos no. Tipo</string>
+    <string name="implicit_intent7">Datos y Tipo</string>
+
+    <string name="tips_name">Calculadora</string>    
+    <string name="bill_amount_hint">Cantidad</string>
+    <string name="tip_percent_hint">Propina</string>
+    <string name="ten">10%</string>
+    <string name="fifteen">15%</string>
+    <string name="eighteen">18%</string>
+    <string name="twenty">20%</string>
+    <string name="tip_amount_label">Propina:</string>
+    <string name="tip_amount_label2">Propina: €%1$.2f</string>
+    <string name="total_bill_label">Total:</string>
+    <string name="total_bill_label2">Total: €%1$.2f</string>
+    
+    <string name="test_activity">Ejemplo</string>
+</resources>

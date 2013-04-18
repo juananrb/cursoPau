@@ -1,0 +1,162 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_span="2"
+                android:background="@android:color/white"
+                android:padding="5dp"
+                android:text="@string/explicit_intents"
+                android:textColor="@android:color/black" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/explicit_intent_button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/explicit_intent1" />
+
+            <Button
+                android:id="@+id/explicit_intent_button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/explicit_intent2" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_span="2"
+                android:background="@android:color/white"
+                android:padding="5dp"
+                android:text="@string/pass_data"
+                android:textColor="@android:color/black" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/pass_extras_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/explicit_intent3" />
+
+            <Button
+                android:id="@+id/return_results_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/explicit_intent4" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_span="2"
+                android:background="@android:color/white"
+                android:padding="5dp"
+                android:text="@string/implicit_intents"
+                android:textColor="@android:color/black" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/intent_button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/implicit_intent1" />
+
+            <Button
+                android:id="@+id/intent_button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/implicit_intent2" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_span="2"
+                android:background="@android:color/white"
+                android:padding="5dp"
+                android:text="@string/category_implicit_intents"
+                android:textColor="@android:color/black" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/category_intent_button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/implicit_intent3" />
+
+            <Button
+                android:id="@+id/category_intent_button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/implicit_intent4" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_span="2"
+                android:background="@android:color/white"
+                android:padding="5dp"
+                android:text="@string/data_implicit_intents"
+                android:textColor="@android:color/black" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/data_intent_button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/implicit_intent5" />
+
+            <Button
+                android:id="@+id/data_intent_button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/implicit_intent6" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/data_intent_button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/implicit_intent7" />
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ProyectoAndroid</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">First Android application</string>
+    <string name="saludos">Hello world</string>
+    <string name="cambiar_texto">Change text</string>
+
+</resources>

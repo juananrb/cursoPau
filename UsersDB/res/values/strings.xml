@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UsersDB</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_agu__gestion_usurio">Gestión usuario</string>
+    <string name="agu_id">Id:</string>
+    <string name="agu_nombre">Nombre</string>
+    <string name="agu_apellidos">Apellidos</string>
+    <string name="agu_nacimiento">F. Nac.:</string>
+    <string name="agu_cambiar_fecha">Cambiar</string>
+    <string name="aul_mn_editar">Editar</string>
+    <string name="aul_mn_borrar">Borrar</string>
+
+</resources>

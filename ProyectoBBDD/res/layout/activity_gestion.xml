@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".GestionActivity" >
+
+    <TextView
+        android:id="@+id/textViewNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="60dp"
+        android:text="@string/gest_lbl_GestionUsuarios"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_AltaUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gest_btn_AltaUsuario" />
+    
+    <Button 
+        android:id="@+id/btn_ModificarUsuario" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:text="@string/gest_btn_ModificarUsuario" />
+
+    <Button
+        android:id="@+id/btn_BajaUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gest_btn_BajaUsuario" />
+
+    <Button
+        android:id="@+id/btn_ListadoUsuarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gest_btn_ListadoUsuarios" />
+
+    <Button
+        android:id="@+id/btn_BorrarTodo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="borrarTodo"
+        android:text="@string/gest_btn_BorrarTodo" />
+
+</LinearLayout>

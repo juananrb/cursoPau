@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Tip Calculator</string>
+    <string name="bill_amount_hint">Bill Amount</string>
+    <string name="tip_percent_hint">Tip Percent</string>
+    <string name="ten">10%</string>
+    <string name="fifteen">15%</string>
+    <string name="eighteen">18%</string>
+    <string name="twenty">20%</string>
+    <string name="tip_amount_label">Tip Amount:</string>
+    <string name="tip_amount_label2">Tip Amount: $%1$.2f</string>
+    <string name="total_bill_label">Total Bill:</string>
+    <string name="total_bill_label2">Total Bill: $%1$.2f</string>
+    <string name="action_settings">Preferencias</string>
+</resources>

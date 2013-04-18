@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ProyectoBBDD</string>
+    <string name="title_activity_usuario">UsuarioActivity</string>
+    <string name="gest_lbl_GestionUsuarios">GESTIÓN USUARIOS</string>
+    <string name="gest_btn_AltaUsuario">Alta Usuario</string>
+    <string name="gest_btn_BajaUsuario">Baja Usuario</string>
+    <string name="gest_btn_ModificarUsuario">Modificar Usuario</string>
+    <string name="gest_btn_BorrarTodo">Borrar Todo</string>
+    <string name="gest_btn_ListadoUsuarios">Listado Usuarios</string>
+    <string name="usu_lbl_Usuario">Usuario</string>
+    <string name="usu_lbl_Nombre">Nombre</string>
+    <string name="usu_lbl_Telefono">Teléfono</string>
+    <string name="usu_lbl_SkypeId">Skype Id</string>
+    <string name="usu_lbl_Direccion">Dirección</string>
+    <string name="usu_btn_Aceptar">Aceptar</string>
+    <string name="usu_btn_Cancelar">Cancelar</string>
+    <string name="title_activity_list_view">ListViewActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="gest_btn_BorrarEstructura">Borrar Estructura</string>
+
+</resources>

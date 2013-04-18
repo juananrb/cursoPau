@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Dialogo personalizado</string>
+    <string name="app_desc">Dialogo personalizado</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_android_dialog">Cuadro de dialogo</string>
+    <string name="dialog_uname">Usuario</string>
+    <string name="dialog_submit">Login</string>
+    <string name="dialog_cancel">Cancelar</string>
+     
+</resources>
